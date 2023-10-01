@@ -50,3 +50,14 @@ You can run `wbot` with the custom browser like
 ## References
 
 * [Selenium documentation](https://www.selenium.dev/documentation/), including Python API
+
+### Relevant crawlers revealing dead links
+
+https://github.com/EndlessTrax/pyanchor
+https://github.com/stevenvachon/broken-link-checker
+https://github.com/untitaker/hyperlink
+https://github.com/w3c/node-linkchecker
+https://github.com/bem-site/broken-links-checker
+https://github.com/emmanuelroecker/php-linkchecker
+https://github.com/deptagency/octopus
+https://pypi.org/project/LinkChecker/
