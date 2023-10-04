@@ -44,7 +44,7 @@ of the browser.
 
 You can run `wbot` with the custom browser like
 ```sh
-./wbot.py --crome_bin /opt/google/chromium-114/chrome
+./wbot.py --chrome_bin /opt/google/chromium-114/chrome
 ```
 
 ## References
