@@ -42,11 +42,18 @@ def retrieve(drv, domain, url):
         logging.warning(f'could not load links for {url}')
         return
 
+    scopeset=set()
+
     for l in links:
         u = l.get_attribute('href')
         if not u:
             continue
+        elif '#' in u:
+            u=u.split('#')[0]
+        scopeset.add(u)
 
+
+    for u in scopeset:
         # Get the status with requests library and then retrieve the URL again
         # recursively with Selenium driver. We need the double requests for now
         # becauseit's not easy to get response status from selenium.
